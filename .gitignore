@@ -1,0 +1,66 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+.output/
+.vinxi/
+.tanstack/
+.nitro/
+
+# Wrangler / Cloudflare
+.wrangler/
+.dev.vars
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Flask
+instance/
+
+# Local database and patient data
+lungcare_local.db
+storage/
+.mpl/
+
+# Uploaded files and generated reports
+uploads/
+reports/
+
+# Editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+*.tmp
+*.bak
+*.local
+# Backend uploaded scans and generated reports
+backend/data/uploads/
+backend/data/reports/backend/mongod.cfg.backup
+backend/mongod.cfg.backup

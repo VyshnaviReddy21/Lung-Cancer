@@ -1,0 +1,14 @@
+{
+  "verified_from_training": false,
+  "classes": ["adenocarcinoma", "large.cell.carcinoma", "normal", "squamous.cell.carcinoma"],
+  "input_name": "REPLACE_FROM_SIGNATURE",
+  "output_name": "REPLACE_FROM_SIGNATURE",
+  "height": null,
+  "width": null,
+  "channels": null,
+  "dtype": "REPLACE_FROM_SIGNATURE",
+  "color_order": "REPLACE_FROM_TRAINING",
+  "interpolation": "REPLACE_FROM_TRAINING",
+  "preprocessing": "REPLACE_FROM_TRAINING",
+  "output_semantics": "REPLACE_FROM_TRAINING"
+}
